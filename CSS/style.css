@@ -386,6 +386,7 @@ header nav ul li a {
 .education .tabs .tabcontent p {
   font-size: 15px;
   font-family: "regular";
+  margin: 15px auto;
 }
 
 .education .tabs .tabcontent button {
