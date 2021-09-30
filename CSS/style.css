@@ -426,7 +426,7 @@ header nav ul li a {
 
 .warm-line .warmtxt button {
   border: none;
-  width: 73%;
+  width: 100%;
   height: 6vh;
   color: white;
   border-radius: 5px;
@@ -927,7 +927,7 @@ footer .links ul li a {
   .banner .bright {
     position: absolute;
     top: -13px;
-    right: 0px;
+    right: -10px;
     width: 48%;
     z-index: -1;
   }
@@ -1005,11 +1005,11 @@ footer .links ul li a {
   }
   .about .abouttxt {
     width: 48%;
-    padding: 100px 50px;
+    padding: 100px 50px 20px;
   }
   .about .abouttxt h2 {
     font-size: 45px;
-    font-family: "extra";
+    font-family: "regular";
     color: #0493a3;
   }
   .about .abouttxt p {
@@ -1021,8 +1021,10 @@ footer .links ul li a {
     border: none;
     background-color: #27226B;
     color: white;
-    height: 6vh;
+    height: 7vh;
     width: 30%;
+    font-size: 23px;
+    font-family: "regular";
   }
   .about .path {
     position: absolute;
@@ -1040,6 +1042,7 @@ footer .links ul li a {
   .education h2 {
     color: #0493a3;
     font-size: 45px;
+    font-family: "regular";
     text-align: center;
   }
   .education .tabs {
@@ -1063,7 +1066,7 @@ footer .links ul li a {
     border: none;
     background-color: transparent;
     width: 100%;
-    height: 45vh;
+    height: 30vh;
   }
   .education .tabs .tab button {
     display: -webkit-box;
@@ -1077,7 +1080,7 @@ footer .links ul li a {
             justify-content: space-between;
     background-color: inherit;
     color: #AFAFB1;
-    padding: 22px 16px 0px;
+    padding: 0px 16px 0px;
     width: 90%;
     border: none;
     outline: none;
@@ -1086,7 +1089,7 @@ footer .links ul li a {
     -webkit-transition: 0.3s;
     transition: 0.3s;
     font-size: 30px;
-    margin: 3%;
+    margin: auto;
   }
   .education .tabs .tab button:hover {
     color: #0493a3;
@@ -1113,18 +1116,20 @@ footer .links ul li a {
   }
   .education .tabs .tabcontent p {
     font-size: 22px;
-    margin: 30px auto;
+    margin: 20px auto;
   }
   .education .tabs .tabcontent button {
-    width: 35%;
+    width: 45%;
+    height: 7vh;
+    font-family: "regular";
     font-size: 23px;
   }
   .education .serve {
     position: absolute;
-    bottom: 4%;
-    right: 1%;
+    bottom: -21%;
+    right: -15%;
     display: block;
-    width: 15%;
+    width: 28%;
   }
   .warm-line {
     padding: 40px 20px;
@@ -1148,6 +1153,7 @@ footer .links ul li a {
   }
   .warm-line .warmtxt h2 {
     font-size: 45px;
+    font-family: "regular";
   }
   .warm-line .warmtxt p {
     font-size: 24px;
@@ -1155,7 +1161,10 @@ footer .links ul li a {
     color: #27226B;
   }
   .warm-line .warmtxt button {
-    width: 40%;
+    width: 100%;
+    height: 8vh;
+    font-family: "regular";
+    font-size: 35px;
   }
   .warm-line .telephone {
     width: 48%;
@@ -1220,7 +1229,7 @@ footer .links ul li a {
     background-color: #27226B;
     border: 2px white solid;
     font-size: 25px;
-    padding: 15px 10px;
+    padding: 15px 100px;
   }
   .fundraising {
     padding: 50px 10px;
@@ -1257,10 +1266,14 @@ footer .links ul li a {
   }
   .fundraising .fundraise .fundtxt h2 {
     font-size: 45px;
+    border-bottom: 3px white solid;
+    width: 50%;
+    margin: auto;
   }
   .fundraising .fundraise .fundtxt p {
     font-size: 22px;
     width: 98%;
+    margin: 30px auto 10px;
   }
   .fundraising .fundraise .fundtxt button {
     height: 7vh;

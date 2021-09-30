@@ -384,7 +384,7 @@ header{
         }
         button{
             border: none;
-            width: 73%;
+            width: 100%;
             height: 6vh;
             color: white;
             border-radius: 5px;
@@ -828,7 +828,7 @@ header{
     .bright{
         position: absolute;
         top:-13px;
-        right:0px;
+        right:-10px;
         width: 48%;
         z-index: -1;
     }
@@ -913,10 +913,10 @@ header{
     }
     .abouttxt{
         width: 48%;
-        padding: 100px 50px;
+        padding: 100px 50px 20px;
         h2{
             font-size: 45px;
-            font-family:$extra ;
+            font-family:$regular;
             color: #0493a3;
         }
         p{
@@ -928,8 +928,10 @@ header{
             border: none;
             background-color: #27226B;
             color: white;
-            height: 6vh;
+            height: 7vh;
             width: 30%;
+            font-size: 23px;
+            font-family: $regular;
         }
     }
     .path{
@@ -952,6 +954,7 @@ header{
 h2{
     color: #0493a3;
     font-size: 45px;
+    font-family: $regular;
     text-align: center;
 }
 .tabs{
@@ -967,7 +970,7 @@ h2{
         border: none;
         background-color: transparent;
         width: 100%;
-        height: 45vh;
+        height: 30vh;
         
       }
       
@@ -977,7 +980,7 @@ h2{
         justify-content: space-between;
         background-color: inherit;
         color: #AFAFB1;
-        padding: 22px 16px 0px;
+        padding: 0px 16px 0px;
         width: 90%;
         border: none;
         outline: none;
@@ -985,7 +988,7 @@ h2{
         cursor: pointer;
         transition: 0.3s;
         font-size: 30px;
-        margin:3%;
+        margin:auto;
         
       }
       
@@ -1016,21 +1019,23 @@ h2{
       
         p{
             font-size: 22px;
-            margin: 30px auto;
+            margin: 20px auto;
         }
         button{
             
-            width: 35%;
+            width: 45%;
+            height: 7vh;
+            font-family: $regular;
             font-size: 23px;
         }
       }
 }
 .serve{
     position: absolute;
-    bottom: 4%;
-    right: 1%;
+    bottom: -21%;
+    right: -15%;
     display: block;
-    width: 15%;
+    width: 28%;
 }
 
 }
@@ -1048,6 +1053,7 @@ h2{
         width:48%;
         h2{
             font-size: 45px;
+            font-family: $regular;
            
         }
 
@@ -1058,7 +1064,10 @@ h2{
         }
         button{
           
-            width: 40%;
+            width: 100%;
+            height: 8vh;
+            font-family: $regular;
+            font-size: 35px;
           
         }
     }
@@ -1115,7 +1124,8 @@ h2{
                 background-color: #27226B;
                 border: 2px white solid;
                 font-size: 25px;
-                padding: 15px 10px;
+                padding: 15px 100px;
+                
             }
         }
     }
@@ -1154,10 +1164,14 @@ h2{
             bottom:6%;
             h2{
                 font-size:45px;
+                border-bottom: 3px white solid;
+                width: 50%;
+                margin: auto;
             }
                     p  {
                 font-size: 22px;
                 width:98%;
+                margin: 30px auto 10px;
                     }
             button{
                 height: 7vh;
