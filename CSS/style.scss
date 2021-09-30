@@ -901,8 +901,9 @@ header{
            position: absolute;
             z-index: -2;
             left: 2px;
-            top: 6%;
+            top: 13%;
             width: 45%;
+            z-index: -1;
         }
        
         img{
@@ -934,10 +935,10 @@ header{
     .path{
         position: absolute;
         display: block;
-        top: -18vh;
+        top: -17vh;
         right: 0%;
-        width: 65%;
-        z-index: -1;
+        width: 100%;
+        z-index: -2;
     }
 }
   

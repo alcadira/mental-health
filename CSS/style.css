@@ -996,8 +996,9 @@ footer .links ul li a {
     position: absolute;
     z-index: -2;
     left: 2px;
-    top: 6%;
+    top: 13%;
     width: 45%;
+    z-index: -1;
   }
   .about .aboutpic img {
     width: 100%;
@@ -1026,10 +1027,10 @@ footer .links ul li a {
   .about .path {
     position: absolute;
     display: block;
-    top: -18vh;
+    top: -17vh;
     right: 0%;
-    width: 65%;
-    z-index: -1;
+    width: 100%;
+    z-index: -2;
   }
   .education {
     padding: 80px 10px;
