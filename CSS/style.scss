@@ -142,6 +142,7 @@ header{
    justify-content: center;
    width: 100%;
    height: 100vh;
+   right: 0%;
    ul{
      padding:40px 90px;
      display: block;
@@ -178,14 +179,14 @@ header{
     .bleft{
             position: absolute;
             top:0%;
-            left: 0%;
+            left: -1%;
             width: 48%;
 
     }
     .bright{
         position: absolute;
         top:-4px;
-        right:-2px;
+        right:-10px;
         width: 51%;
     }
         display: flex;
@@ -199,15 +200,16 @@ header{
                 margin: 5px auto 10px;
             }
             p{
-                font-size: 18px;
+                font-size: 15px;
                 color: #27226b;
                 font-family: $semi;
             }
             button{
                 color: white;
                 background-color: #0493a3;
-                height: 5vh;
-                width: 35%;
+                height: 7vh;
+                width: 40%;
+                font-size: 18px;
                 border: none;
                 border-radius: 5px;
                 font-weight: $regular;
@@ -253,11 +255,11 @@ header{
         padding: 40px 0px;
         h2{
             font-size: 25px;
-            font-family:$extra ;
+            font-family:$regular;
             color: #0493a3;
         }
         p{
-            font-size: 18px;
+            font-size: 15px;
             font-family: $mid;
             color: #27226B;
         }
@@ -266,8 +268,10 @@ header{
             border: none;
             background-color: #27226B;
             color: white;
-            height: 6vh;
-            width: 35%;
+            height: 7vh;
+            font-size: 18px;
+            font-family: $regular;
+            width: 40%;
         }
     }
     .path{
@@ -278,11 +282,11 @@ header{
 // ============================education=====================
 
 .education{
-        padding: 50px 10px;
+        padding: 30px 10px;
         h2{
             color: #0493a3;
             font-size: 28px;
-            font-family: $semi;
+            font-family: $regular;
         }
     
     .tabs{
@@ -349,7 +353,9 @@ header{
                 border: none;
                 color: white;
                 height: 6vh;
-                width: 55%;
+                width: 65%;
+                font-size: 18px;
+                font-family: $regular;
             }
           }
     }
@@ -373,7 +379,7 @@ header{
         width:100% ;
         h2{
             font-size: 28px;
-            font-family: $extra;
+            font-family: $regular;
             color: #0493a3;
         }
 
@@ -385,7 +391,9 @@ header{
         button{
             border: none;
             width: 100%;
-            height: 6vh;
+            height: 7vh;
+            font-size: 18px;
+            font-family: $regular;
             color: white;
             border-radius: 5px;
             background-color: #27226B;
@@ -860,8 +868,10 @@ header{
             button{
                 color: white;
                 background-color: #0493a3;
-                height: 6vh;
-                width: 25%;
+                height: 7vh;
+                font-size: 20px;
+                font-family: $regular;
+                width: 40%;
                 margin:3px auto;
               
             }
@@ -949,6 +959,7 @@ header{
 .education{
     padding: 80px 10px;
     position: relative;
+    overflow: hidden;
     background-image: url(../img/footer.png);
 
 h2{
@@ -1371,7 +1382,7 @@ footer{
             height: 7vh;
             outline: none;
             border: none;
-            margin-right: 20px;
+            margin-right: 15px;
             
         }
         button{
@@ -1382,14 +1393,14 @@ footer{
         }
     }
   .links{
-      width: 60%;
+      width:55%;
       margin: auto;
       display: flex;
       flex-direction: row;
       margin:60px auto;
       text-align: left;
       ul{
-          width: 33%;
+          width: 35%;
           
           h4{
               color: #27226B;
@@ -1398,7 +1409,7 @@ footer{
               list-style: none;
              
               a{
-                font-size: 18px;
+                font-size: 15px;
                
               }
           }
@@ -1548,7 +1559,7 @@ h2{
         border: none;
         background-color: transparent;
         width: 100%;
-        height: 40vh;
+        height: 30vh;
         
       }
       
@@ -1558,7 +1569,7 @@ h2{
         justify-content: space-between;
         background-color: inherit;
         color: #AFAFB1;
-        padding: 22px 16px 0px;
+        padding: 0px 16px 0px;
         width: 90%;
         border: none;
         outline: none;
@@ -1596,7 +1607,7 @@ h2{
         border-radius:0;
       
         p{
-            font-size: 18px;
+            font-size: 20px;
             margin: 25px auto;
         }
         button{
@@ -1609,10 +1620,10 @@ h2{
 
 .serve{
     position: absolute;
-    right: -2%;
-    bottom: 1%;
+    right: -5%;
+    bottom: 5%;
     display: block;
-    width: 24%;
+    width: 26%;
 }
 
 }
@@ -1629,9 +1640,9 @@ h2{
             font-size: 22px;
         }
         button{
-            width: 45%;
+            width: 100%;
             font-size: 25px;
-            font-family: $mid;
+            font-family: $regular;
         }
     }
 }
@@ -1682,8 +1693,8 @@ h2{
                 color: white;
                 background-color: #27226B;
                 border: 2px white solid;
-                font-size: 21px;
-                padding: 15px 10px;
+                font-size: 15px;
+                padding: 15px 50px;
             }
         }
     }
@@ -1958,14 +1969,14 @@ footer{
           
           h4{
               color: #27226B;
-              font-size: 18px;
+              font-size: 25px;
               font-family: $regular;
           }
           li{
               list-style: none;
              
               a{
-                font-size: 15px;
+                font-size: 18px;
                
               }
           }
